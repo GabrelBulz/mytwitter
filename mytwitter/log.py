@@ -6,6 +6,7 @@ CONF = mytwitter.config.CONF
 
 
 def get_logger():
+    print("test")
     return logging.getLogger('mytwitter')
 
 
